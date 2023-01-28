@@ -4,3 +4,4 @@ Here is the hash function to generate a hash when a string is passed. For the si
 
 def hash_string(string, size)
     return sum([ord(literal) for literal in string]) % size
+    
