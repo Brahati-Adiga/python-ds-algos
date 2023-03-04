@@ -3,6 +3,9 @@ Create a class
 Node {
        Node next
        string word
-}
+     }
 
-in the dict, instead of pointing to a list, it will point to an object of the type Node. If hash collision occurs, then have the Node.next point to the new instance of Node object. assign the word read from the file to the word in the new object instance. Then set the current object Node's next to Nil.
+in the dict, instead of pointing to a list, it will point to an object of the type Node. 
+If hash collision occurs, then have the Node.next point to the new instance of Node object.
+Assign the word read from the file to the word in the new object instance. 
+Then set the current object Node's next to Nil.
